@@ -2,7 +2,7 @@
 #must install geopy before running code
 from geopy import Nominatim
 from geopy.distance import geodesic
-geolocator = Nominatim(user_agent = "Your@email.com")
+geolocator = Nominatim(user_agent = "Your@email.com")#enter your email here
 print("Hi, I will find the distance between two locations for you in Kilometers")
 while True:
     unit = input("Please enter 'm' for Miles or 'km' for Kilometers").lower()
